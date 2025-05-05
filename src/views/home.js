@@ -34,9 +34,10 @@ const Home = (props) => {
         }
         link2={
           <Fragment>
-            <span className="home-text102">#services</span>
+            <span className="home-text102">Giới thiệu</span>
           </Fragment>
         }
+        
         page1={
           <Fragment>
             <span className="home-text103">Home</span>
@@ -44,7 +45,7 @@ const Home = (props) => {
         }
         link1={
           <Fragment>
-            <span className="home-text104">#</span>
+            <span className="home-text104">Trang chủ</span>
           </Fragment>
         }
         page4={
@@ -59,7 +60,7 @@ const Home = (props) => {
         }
         link4={
           <Fragment>
-            <span className="home-text107">#contact</span>
+            <span className="home-text107">Liên hệ</span>
           </Fragment>
         }
         page1Description={
@@ -74,7 +75,7 @@ const Home = (props) => {
         }
         link3={
           <Fragment>
-            <span className="home-text110">#portfolio</span>
+            <span className="home-text110">Dịch vụ</span>
           </Fragment>
         }
         page3={

@@ -17,63 +17,75 @@ const Navbar8 = (props) => {
         />
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
+            {/* home */}
             <a
               href={props.link1Url}
               className="navbar8-link11 thq-link thq-body-small"
             >
               {props.link1 ?? (
                 <Fragment>
-                  <span className="navbar8-text18">#</span>
+                  <span className="navbar8-text18">Trang chủ</span>
                 </Fragment>
               )}
             </a>
-            <a href={props.link2Url} className="thq-link thq-body-small">
+            {/* intro */}
+            <a
+              href={props.link2Url}
+              className="navbar8-link11 thq-link thq-body-small"
+            >
               {props.link2 ?? (
                 <Fragment>
-                  <span className="navbar8-text16">#services</span>
+                  <span className="navbar8-text18">Giới thiệu</span>
                 </Fragment>
               )}
             </a>
+            {/* service */}
+            <a href={props.link3Url} className="thq-link thq-body-small">
+              {props.link3 ?? (
+                <Fragment>
+                  <span className="navbar8-text16">Dịch vụ</span>
+                </Fragment>
+              )}
+            </a>
+            {/* contact */}
             <a
-              href={props.link3Url}
+              href={props.link4Url}
               target="_blank"
               rel="noreferrer noopener"
               className="navbar8-link31 thq-link thq-body-small"
             >
-              {props.link3 ?? (
+              {props.link4 ?? (
                 <Fragment>
-                  <span className="navbar8-text24">#portfolio</span>
+                  <span className="navbar8-text24">Liên hệ</span>
                 </Fragment>
               )}
             </a>
-            <div
-              onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
-              className="navbar8-link4-dropdown-trigger"
+            {/* blog */}
+            <a
+              href={props.link5Url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="navbar8-link31 thq-link thq-body-small"
             >
-              <span className="thq-link thq-body-small">
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="navbar8-text21">#contact</span>
-                  </Fragment>
-                )}
-              </span>
-              <div className="navbar8-icon-container1">
-                {link5DropdownVisible && (
-                  <div className="navbar8-container2">
-                    <svg viewBox="0 0 1024 1024" className="navbar8-icon10">
-                      <path d="M298 426h428l-214 214z"></path>
-                    </svg>
-                  </div>
-                )}
-                {!link5DropdownVisible && (
-                  <div className="navbar8-container3">
-                    <svg viewBox="0 0 1024 1024" className="navbar8-icon12">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                )}
-              </div>
-            </div>
+              {props.link5 ?? (
+                <Fragment>
+                  <span className="navbar8-text24">Blog/Tin tức</span>
+                </Fragment>
+              )}
+            </a>
+            {/* recruit */}
+            <a
+              href={props.link6Url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="navbar8-link31 thq-link thq-body-small"
+            >
+              {props.link6 ?? (
+                <Fragment>
+                  <span className="navbar8-text24">Tuyển dụng</span>
+                </Fragment>
+              )}
+            </a>
           </nav>
           <div className="navbar8-buttons1">
             <button className="navbar8-action11 thq-button-animated thq-button-filled">
@@ -414,6 +426,35 @@ const Navbar8 = (props) => {
                   </div>
                 </div>
               </a>
+              {/* giới thiệu */}
+              <a href={props.linkUrlPage4}>
+                <div className="navbar8-menu-item8">
+                  <img
+                    alt={props.page4ImageAlt}
+                    src={props.page4ImageSrc}
+                    className="navbar8-page4-image2 thq-img-ratio-1-1"
+                  />
+                  <div className="navbar8-content8">
+                    <span className="navbar8-page42 thq-body-large">
+                      {props.page4 ?? (
+                        <Fragment>
+                          <span className="navbar8-text19">Giới thiệu</span>
+                        </Fragment>
+                      )}
+                    </span>
+                    <span className="thq-body-small">
+                      {props.page4Description ?? (
+                        <Fragment>
+                          <span className="navbar8-text14">
+                            Get in touch with us
+                          </span>
+                        </Fragment>
+                      )}
+                    </span>
+                  </div>
+                </div>
+              </a>
+              {/* liên hệ */}
               <a href={props.linkUrlPage4}>
                 <div className="navbar8-menu-item8">
                   <img
