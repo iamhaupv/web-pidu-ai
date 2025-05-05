@@ -195,7 +195,7 @@ const Testimonial17 = (props) => {
                       {props.author4Position ?? (
                         <Fragment>
                           <span className="testimonial17-text30">
-                            Creative Director, Design Studio JKL
+                            Dùng AI có bị “phụ thuộc công nghệ”?
                           </span>
                         </Fragment>
                       )}
@@ -206,9 +206,7 @@ const Testimonial17 = (props) => {
                   {props.review4 ?? (
                     <Fragment>
                       <span className="testimonial17-text37">
-                        I couldn&apos;t be happier with the website created by
-                        Digital Agency XYZ. Their attention to detail and design
-                        skills are unmatched in the industry.
+                      AI là công cụ hỗ trợ ra quyết định, không thay thế hoàn toàn con người. Quan trọng là doanh nghiệp hiểu rõ cách dùng và kiểm soát quy trình, không để AI vận hành “mù quáng”.
                       </span>
                     </Fragment>
                   )}
@@ -248,7 +246,7 @@ Testimonial17.defaultProps = {
   review1: undefined,
   heading1: undefined,
   review3: undefined,
-  review4: undefined,
+  review4: "AI là công cụ hỗ trợ ra quyết định, không thay thế hoàn toàn con người. Quan trọng là doanh nghiệp hiểu rõ cách dùng và kiểm soát quy trình, không để AI vận hành “mù quáng”.",
 }
 
 Testimonial17.propTypes = {

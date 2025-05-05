@@ -13,6 +13,7 @@ import Testimonial17 from '../../components/testimonial17'
 import Contact10 from '../../components/contact10'
 import Footer4 from '../../components/footer4'
 import '../../views/home.css'
+import "./Home.css"
 
 const Home = (props) => {
   return (
@@ -35,12 +36,13 @@ const Home = (props) => {
         }
         feature1Title={
           <Fragment>
-            <span className="home-text121">Creative Designs</span>
+            <span className="home-text121">🎯 Tự động hóa – Tiết kiệm chi phí – Tăng doanh số
+            </span>
           </Fragment>
         }
         feature1Description={
           <Fragment>
-            <span className="home-text122">Unique and Engaging Designs</span>
+            <span className="home-text122">👉 Đặt lịch tư vấn miễn phí</span>
           </Fragment>
         }
         feature2Title={
@@ -384,53 +386,60 @@ const Home = (props) => {
         step1Description={
           <Fragment>
             <span className="home-text184">
-              We start by understanding your business goals and requirements in
-              a detailed consultation.
+Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng với Heygen, AI Video Generator và Automation Workflow.
             </span>
           </Fragment>
         }
         step3Description={
           <Fragment>
             <span className="home-text185">
-              We rigorously test the website for functionality, responsiveness,
-              and user experience, making refinements as needed.
+            Thiết kế website, landing page chuẩn UI/UX, tích hợp chatbot AI, automation sale & quản trị hệ thống thông minh.
+
             </span>
           </Fragment>
         }
         step2Title={
           <Fragment>
-            <span className="home-text186">Design &amp; Development</span>
+            <span className="home-text186">2️⃣ Dịch vụ SEO Website ứng dụng AI & Automation
+            </span>
           </Fragment>
         }
         step2Description={
           <Fragment>
             <span className="home-text187">
-              Our team of experts will design and develop a custom website
-              tailored to your brand and target audience.
+            Tối ưu website lên top Google nhờ AI Keyword Research, AI Content và tự động hóa tracking thứ hạng.
+
             </span>
           </Fragment>
         }
         step1Title={
           <Fragment>
-            <span className="home-text188">Initial Consultation</span>
+            <span className="home-text188">1️⃣ Sản xuất nội dung Video AI
+            </span>
           </Fragment>
         }
         step3Title={
           <Fragment>
-            <span className="home-text189">Testing &amp; Refinement</span>
+            <span className="home-text189">3️⃣ Dịch vụ Dev Website & ứng dụng AI Automation
+            </span>
           </Fragment>
         }
         step4Description={
           <Fragment>
             <span className="home-text190">
-              Once everything is perfect, we launch your website and provide
-              ongoing support and optimization services.
+                <ul class="feature-list">
+                    <li>✔ Theo dõi tiến độ công việc</li>
+                    <li>✔ Kiểm soát số liệu kinh doanh realtime </li>
+                    <li>✔ Quản lý khách hàng – chăm sóc tự động</li>
+                    <li>✔ Xem báo cáo và điều chỉnh ngay trên nền tảng</li>
+                </ul>
+             <br/>
             </span>
           </Fragment>
         }
         step4Title={
           <Fragment>
-            <span className="home-text191">Launch &amp; Optimization</span>
+            <span className="home-text191">📊 Dashboard thông minh dành riêng cho bạn</span>
           </Fragment>
         }
       ></Steps2>
@@ -438,13 +447,13 @@ const Home = (props) => {
         author2Position={
           <Fragment>
             <span className="home-text192">
-              Marketing Director, Company DEF
+            AI có thể thay thế hoàn toàn nhân viên không?
             </span>
           </Fragment>
         }
         author1Position={
           <Fragment>
-            <span className="home-text193">CEO, Company ABC</span>
+            <span className="home-text193">Chi phí triển khai AI marketing bao nhiêu?</span>
           </Fragment>
         }
         author1Name={
@@ -460,9 +469,8 @@ const Home = (props) => {
         review2={
           <Fragment>
             <span className="home-text196">
-              I was impressed by the level of expertise and dedication shown by
-              Digital Agency XYZ. They transformed our outdated website into a
-              modern and user-friendly platform.
+            Không — AI & Automation giúp giảm tải công việc lặp lại để nhân viên tập trung vào sáng tạo và chiến lược.
+
             </span>
           </Fragment>
         }
@@ -474,7 +482,7 @@ const Home = (props) => {
         author4Position={
           <Fragment>
             <span className="home-text198">
-              Creative Director, Design Studio JKL
+            AI có đảm bảo bảo mật dữ liệu khách hàng không?
             </span>
           </Fragment>
         }
@@ -486,46 +494,42 @@ const Home = (props) => {
         content1={
           <Fragment>
             <span className="home-text200">
-              Working with the team at Digital Agency XYZ was a game-changer for
-              our online presence. They delivered a stunning website that
-              exceeded our expectations.
+            <b>Đơn vị tiên phong ứng dụng AI & Automation vào marketing tại Việt Nam.</b> <br/>
+Tận tâm – Chuyên nghiệp – Luôn đồng hành cùng doanh nghiệp kiến tạo thành công bền vững trong kỷ nguyên số.
             </span>
+            <br/>
+            <h1 class="faq-title" >📌 Câu hỏi thường gặp (FAQ)</h1>
           </Fragment>
         }
         author3Position={
           <Fragment>
-            <span className="home-text201">Founder, Startup GHI</span>
+            <span className="home-text201">Dùng AI có bị “phụ thuộc công nghệ”?</span>
           </Fragment>
         }
+        
         review1={
           <Fragment>
             <span className="home-text202">
-              The team at Digital Agency XYZ was professional, creative, and
-              attentive to our needs throughout the entire process. I highly
-              recommend their services.
+            Chi phí linh hoạt từ 5 triệu/tháng tùy vào nhu cầu, doanh nghiệp có thể chọn từng dịch vụ hoặc gói trọn bộ.
             </span>
           </Fragment>
         }
         heading1={
           <Fragment>
-            <span className="home-text203">Testimonials</span>
+            <span className="home-text203">🥇 Chúng tôi là Pidu Digital</span>
           </Fragment>
         }
         review3={
           <Fragment>
             <span className="home-text204">
-              Digital Agency XYZ truly understands the importance of branding
-              and user experience. Our new website has helped us attract more
-              customers and grow our business.
+            AI là công cụ hỗ trợ ra quyết định, không thay thế hoàn toàn con người. Quan trọng là doanh nghiệp hiểu rõ cách dùng và kiểm soát quy trình, không để AI vận hành “mù quáng”.
             </span>
           </Fragment>
         }
         review4={
           <Fragment>
             <span className="home-text205">
-              I couldn&apos;t be happier with the website created by Digital
-              Agency XYZ. Their attention to detail and design skills are
-              unmatched in the industry.
+            Tùy theo nhà cung cấp giải pháp AI. Pidu cam kết tuân thủ nghiêm ngặt các tiêu chuẩn bảo mật quốc tế và đảm bảo dữ liệu khách hàng được bảo vệ an toàn tuyệt đối.
             </span>
           </Fragment>
         }

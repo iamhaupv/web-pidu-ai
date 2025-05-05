@@ -30,7 +30,7 @@ const LayoutDefault = (props) => {
         }
         action1={
           <Fragment>
-            <span className="home-text101">Get Started</span>
+            <span className="home-text101">Bắt đầu ngay</span>
           </Fragment>
         }
         link2={
@@ -66,7 +66,8 @@ const LayoutDefault = (props) => {
         }
         page1Description={
           <Fragment>
-            <span className="home-text108">Welcome to our digital agency</span>
+            <span className="home-text108">Phát triển doanh nghiệp của bạn với sức mạnh AI & Automation!
+            </span>
           </Fragment>
         }
         page2Description={
@@ -93,31 +94,31 @@ const LayoutDefault = (props) => {
         }
         action2={
           <Fragment>
-            <span className="home-text113">Contact Us</span>
+            <span className="home-text113">Liên hệ chúng tôi</span>
           </Fragment>
         }
       ></Navbar8>
       <Hero17
         action2={
           <Fragment>
-            <span className="home-text114">Learn More</span>
+            <span className="home-text114">Xem thêm</span>
           </Fragment>
         }
         action1={
           <Fragment>
-            <span className="home-text115">Get Started</span>
+            <span className="home-text115">Bắt đầu ngay</span>
           </Fragment>
         }
         heading1={
           <Fragment>
-            <span className="home-text116">Welcome to Our Digital Agency</span>
+            <span className="home-text116">Phát triển doanh nghiệp của bạn với sức mạnh AI & Automation!
+            </span>
           </Fragment>
         }
         content1={
           <Fragment>
             <span className="home-text117">
-              We specialize in building modern and responsive websites tailored
-              to your needs.
+            Khi bạn đang nghỉ ngơi, hệ thống của chúng tôi vẫn làm việc 24/7 để tối ưu hóa hoạt động marketing, chăm sóc khách hàng và tăng trưởng doanh thu cho doanh nghiệp bạn.
             </span>
           </Fragment>
         }
@@ -127,21 +128,28 @@ const LayoutDefault = (props) => {
         content1={
           <Fragment>
             <span className="home-text206">
-              Get in touch with us to discuss your project or any inquiries you
-              may have.
+            <b>📅 Đặt lịch tư vấn miễn phí – chỉ mất 30 giây!</b> <br/>
+            Bạn cần AI để tăng trưởng doanh nghiệp ngay? <br/>
+📞 Chỉ 1 cuộc hẹn, bạn sẽ nhận được kế hoạch tăng doanh số từ 10 - 50% trong 30 ngày.  <br/>
+👉 Đặt lịch tư vấn <br/>
+📍 Liên hệ <br/>
+📧 pidumarketing@gmail.com <br/>
+📱 (+84) 938 905 347 <br/>
+
+
             </span>
           </Fragment>
         }
         location1Description={
           <Fragment>
             <span className="home-text207">
-              123 Main Street, New York, NY 10001
+            Số 7 đường số 7, khu đô thị Vạn Phúc City, phường Hiệp Bình Phước,Thành Phố Thủ Đức
             </span>
           </Fragment>
         }
         heading1={
           <Fragment>
-            <span className="home-text208">Contact Us</span>
+            <span className="home-text208">Liên hệ chúng tôi</span>
           </Fragment>
         }
         location2Description={

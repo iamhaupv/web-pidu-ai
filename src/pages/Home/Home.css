@@ -1,0 +1,17 @@
+.feature-list {
+    list-style: none;            /* Xóa chấm đầu dòng mặc định */
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;         /* Khoảng cách giữa các dòng */
+    padding-left: 25px;          /* Khoảng cách giữa dấu ✔ và văn bản */
+    text-align: left;            /* Căn trái nội dung */
+}
+.faq-title {
+    margin-top: 150px;
+  }
+  

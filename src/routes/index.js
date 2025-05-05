@@ -1,6 +1,11 @@
 import LayoutDefault from "../layouts/LayoutDefault";
 import About from "../pages/About";
+import Blog from "../pages/Blog";
+import Contact from "../pages/Contact";
 import Home from "../pages/Home";
+import NotFound from "../pages/NotFound";
+import Recruit from "../pages/Recruit";
+import Service from "../pages/Service";
 export const routes = [
   {
     path: "/",
@@ -17,11 +22,23 @@ export const routes = [
       {
         path: "about",
         element: <About />,
+      },{
+        path: "service",
+        element: <Service />,
+      },{
+        path: "contact",
+        element: <Contact />,
+      },{
+        path: "blog",
+        element: <Blog />,
+      },{
+        path: "recruit",
+        element: <Recruit />,
       },
     ],
   },
   {
     path: "*",
-    element: <div>404 - Not Found</div>,
+    element: <NotFound/>
   },
 ];

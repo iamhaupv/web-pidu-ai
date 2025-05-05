@@ -11,17 +11,20 @@ const Steps2 = (props) => {
         <div className="steps2-container2 thq-grid-2">
           <div className="steps2-section-header">
             <h2 className="thq-heading-2">
-              Discover the Power of Our Products
+            🤖 AI & Automation giúp bạn giải quyết ra sao?
             </h2>
             <p className="thq-body-large">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+              <ul className='feature-list'>
+                <li>✅ Tự động hóa quy trình marketing 24/7</li>
+                <li>✅ Tăng lượng khách hàng tiềm năng nhờ AI Lead Gen</li>
+                <li>✅ Sản xuất nội dung video, SEO content nhanh, chuẩn tối ưu</li>
+                <li>✅ Quản lý dữ liệu & phân tích hiệu quả realtime trên dashboard thông minh</li>
+              </ul>
+              → Tiết kiệm 60% chi phí – Tăng doanh số từ 30%
             </p>
             <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">
-                <span className="thq-body-small">Main action</span>
+                <span className="thq-body-small">Bắt đầu ngay</span>
               </button>
             </div>
           </div>

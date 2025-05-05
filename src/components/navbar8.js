@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-
+import logo from "../assets/icon.png"
 import './navbar8.css'
 
 const Navbar8 = (props) => {
@@ -12,7 +12,7 @@ const Navbar8 = (props) => {
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
         <img
           alt={props.logoAlt}
-          src={props.logoSrc}
+          src={logo}
           className="navbar8-image1"
         />
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
@@ -92,7 +92,7 @@ const Navbar8 = (props) => {
               <span>
                 {props.action1 ?? (
                   <Fragment>
-                    <span className="navbar8-text15">Get Started</span>
+                    <span className="navbar8-text15">Bắt đầu ngay</span>
                   </Fragment>
                 )}
               </span>
@@ -305,7 +305,7 @@ const Navbar8 = (props) => {
                 <span>
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="navbar8-text15">Get Started</span>
+                      <span className="navbar8-text15">Bắt đầu ngay</span>
                     </Fragment>
                   )}
                 </span>

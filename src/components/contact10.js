@@ -59,7 +59,7 @@ const Contact10 = (props) => {
                 rel="noreferrer noopener"
                 className="thq-button-flat thq-body-small"
               >
-                Get directions
+                Chỉ đường
               </a>
             </div>
           </div>
