@@ -498,19 +498,19 @@ const Navbar8 = (props) => {
 
 Navbar8.defaultProps = {
   linkUrlPage4: 'https://www.teleporthq.io',
-  link2Url: 'https://www.teleporthq.io',
+  link2Url: '/intro',
   page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1598350740831-b360a3283b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMXw&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,
   page2ImageAlt: 'Services Image',
-  link2: undefined,
-  linkUrlPage2: 'https://www.teleporthq.io',
+  link2: "/intro",
+  linkUrlPage2: '/intro',
   logoAlt: 'Agency Logo',
   logoSrc:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
   page3ImageAlt: 'Portfolio Image',
-  linkUrlPage1: 'https://www.teleporthq.io',
+  linkUrlPage1: '/',
   page1: undefined,
   link1: undefined,
   page4ImageSrc:
@@ -528,7 +528,7 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   link3: undefined,
   page3: undefined,
-  link1Url: 'https://www.teleporthq.io',
+  link1Url: '/',
   page3Description: undefined,
   page1ImageAlt: 'Home Image',
   action2: undefined,
