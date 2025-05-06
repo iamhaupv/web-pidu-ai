@@ -5,7 +5,7 @@ import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import Recruit from "../pages/Recruit";
-import Service from "../pages/Service";
+import Service from "../pages/Services";
 export const routes = [
   {
     path: "/",

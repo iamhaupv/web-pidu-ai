@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-
+import logo from "../assets/icon.png"
+import zalo from "../assets/icons8-zalo-96.png"
+import x from "../assets/icons8-x-100.png"
 import './footer4.css'
 
 const Footer4 = (props) => {
@@ -12,78 +14,67 @@ const Footer4 = (props) => {
           <div className="footer4-logo1">
             <img
               alt={props.logoAlt}
-              src={props.logoSrc}
+              src={logo}
               className="footer4-logo2"
             />
           </div>
           <div className="footer4-links">
             <a
               href="https://example.com"
-              target="_blank"
+              
               rel="noreferrer noopener"
               className="thq-body-small"
             >
-              {props.link1 ?? (
+              {(
                 <Fragment>
-                  <span className="footer4-text16">Home</span>
+                 <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 24 24"
+  fill="#1877F2"
+>
+  <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-2v7A10 10 0 0 0 22 12Z" />
+</svg>
+ 
+                </Fragment>
+              )}
+
+            </a>
+            <a
+              href="https://example.com"
+             
+              rel="noreferrer noopener"
+              className="thq-body-small"
+            >
+              {(
+                <Fragment>
+                  <img src={zalo} alt="Zalo" width="32" height="32" />
+                  
                 </Fragment>
               )}
             </a>
             <a
               href="https://example.com"
-              target="_blank"
+             
               rel="noreferrer noopener"
               className="thq-body-small"
             >
-              {props.link2 ?? (
+              { (
                 <Fragment>
-                  <span className="footer4-text18">Services</span>
+                  <img src={x} alt="Zalo" width="32" height="32" />
+                  
                 </Fragment>
               )}
             </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link3 ?? (
-                <Fragment>
-                  <span className="footer4-text15">Portfolio</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link4 ?? (
-                <Fragment>
-                  <span className="footer4-text19">Contact</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {props.link5 ?? (
-                <Fragment>
-                  <span className="footer4-text14">About Us</span>
-                </Fragment>
-              )}
-            </a>
+            
           </div>
         </div>
         <div className="footer4-credits">
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 TeleportHQ</span>
+              <span className="thq-body-small">pidumarketing@gmail.com</span>
             </div>
             <div className="footer4-footer-links">
               <span className="footer4-text11 thq-body-small">
@@ -120,9 +111,9 @@ const Footer4 = (props) => {
 Footer4.defaultProps = {
   link5: undefined,
   link3: undefined,
-  link1: undefined,
+  link1: "Facebook",
   termsLink: undefined,
-  link2: undefined,
+  link2: "Zalo",
   link4: undefined,
   logoAlt: 'Digital Agency Logo',
   cookiesLink: undefined,

@@ -33,7 +33,7 @@
 }
  
 .footer4-logo2 {
-  height: 2rem;
+  height: 6rem;
 }
  
 .footer4-links {
@@ -127,4 +127,11 @@
     flex-direction: column;
     justify-content: center;
   }
+}
+.footer4-links a {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  gap: 8px;             /* Khoảng cách giữa icon và chữ */
+  text-decoration: none;
+  margin-bottom: 8px;   /* Khoảng cách giữa các dòng (tuỳ chọn) */
 }

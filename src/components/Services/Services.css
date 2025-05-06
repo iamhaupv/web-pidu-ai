@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Service section */
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .service-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-card ul li {
+    margin-bottom: 10px;
+  }
+  
+  .service-card .benefit {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .service-card {
+      width: 100%;
+    }
+  }
+  

@@ -11,11 +11,11 @@ const Navbar8 = (props) => {
   return (
     <header className="navbar8-container1">
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
-        <img
+        <Link to={"/"}><img
           alt={props.logoAlt}
           src={logo}
           className="navbar8-image1"
-        />
+        /></Link>
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
             {/* home */}
@@ -495,9 +495,9 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  linkUrlPage4: 'https://www.teleporthq.io',
+  // linkUrlPage4: 'https://www.teleporthq.io',
   link2Url: '/about',
-  page4Description: undefined,
+  // page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1598350740831-b360a3283b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMXw&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,
