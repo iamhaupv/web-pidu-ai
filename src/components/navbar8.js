@@ -3,6 +3,7 @@ import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import logo from "../assets/icon.png"
 import './navbar8.css'
+import { Link } from 'react-router-dom';
 
 const Navbar8 = (props) => {
   const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)
@@ -18,8 +19,8 @@ const Navbar8 = (props) => {
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
             {/* home */}
-            <a
-              href={props.link1Url}
+            <Link
+              to={props.link1Url}
               className="navbar8-link11 thq-link thq-body-small"
             >
               {props.link1 ?? (
@@ -27,10 +28,10 @@ const Navbar8 = (props) => {
                   <span className="navbar8-text18">Trang chủ</span>
                 </Fragment>
               )}
-            </a>
+            </Link>
             {/* intro */}
-            <a
-              href={props.link2Url}
+            <Link
+              to={props.link2Url}
               className="navbar8-link11 thq-link thq-body-small"
             >
               {props.link2 ?? (
@@ -38,19 +39,18 @@ const Navbar8 = (props) => {
                   <span className="navbar8-text18">Giới thiệu</span>
                 </Fragment>
               )}
-            </a>
+            </Link>
             {/* service */}
-            <a href={props.link3Url} className="thq-link thq-body-small">
+            <Link to={props.link3Url} className="thq-link thq-body-small">
               {props.link3 ?? (
                 <Fragment>
                   <span className="navbar8-text16">Dịch vụ</span>
                 </Fragment>
               )}
-            </a>
+            </Link>
             {/* contact */}
-            <a
-              href={props.link4Url}
-              target="_blank"
+            <Link
+              to={props.link4Url}
               rel="noreferrer noopener"
               className="navbar8-link31 thq-link thq-body-small"
             >
@@ -59,11 +59,10 @@ const Navbar8 = (props) => {
                   <span className="navbar8-text24">Liên hệ</span>
                 </Fragment>
               )}
-            </a>
+            </Link>
             {/* blog */}
-            <a
-              href={props.link5Url}
-              target="_blank"
+            <Link
+              to={props.link5Url}
               rel="noreferrer noopener"
               className="navbar8-link31 thq-link thq-body-small"
             >
@@ -72,11 +71,10 @@ const Navbar8 = (props) => {
                   <span className="navbar8-text24">Blog/Tin tức</span>
                 </Fragment>
               )}
-            </a>
+            </Link>
             {/* recruit */}
-            <a
-              href={props.link6Url}
-              target="_blank"
+            <Link
+              to={props.link6Url}
               rel="noreferrer noopener"
               className="navbar8-link31 thq-link thq-body-small"
             >
@@ -85,7 +83,7 @@ const Navbar8 = (props) => {
                   <span className="navbar8-text24">Tuyển dụng</span>
                 </Fragment>
               )}
-            </a>
+            </Link>
           </nav>
           <div className="navbar8-buttons1">
             <button className="navbar8-action11 thq-button-animated thq-button-filled">
@@ -498,14 +496,14 @@ const Navbar8 = (props) => {
 
 Navbar8.defaultProps = {
   linkUrlPage4: 'https://www.teleporthq.io',
-  link2Url: '/intro',
+  link2Url: '/about',
   page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1598350740831-b360a3283b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMXw&ixlib=rb-4.0.3&q=80&w=1080',
   action1: undefined,
   page2ImageAlt: 'Services Image',
-  link2: "/intro",
-  linkUrlPage2: '/intro',
+  link2: "/about",
+  linkUrlPage2: '/about',
   logoAlt: 'Agency Logo',
   logoSrc:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
@@ -518,7 +516,7 @@ Navbar8.defaultProps = {
   linkUrlPage3: 'https://www.teleporthq.io',
   page4: undefined,
   page2: undefined,
-  link4: undefined,
+  link4: "/contact",
   page4ImageAlt: 'Contact Image',
   page1Description: undefined,
   page2ImageSrc:
@@ -526,13 +524,19 @@ Navbar8.defaultProps = {
   page3ImageSrc:
     'https://images.unsplash.com/photo-1572985025310-cc8cafbbf394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
   page2Description: undefined,
-  link3: undefined,
+  link3: "/service",
   page3: undefined,
   link1Url: '/',
   page3Description: undefined,
   page1ImageAlt: 'Home Image',
   action2: undefined,
-  link3Url: 'https://www.teleporthq.io',
+  link3Url: '/service',
+  link4Url: "contact",
+  link4: "contact",
+  link5: "Blog/Tin tức",
+  link5Url: "blog",
+  link6: "Tuyển dụng",
+  link6Url: "recruit"
 }
 
 Navbar8.propTypes = {
@@ -567,6 +571,10 @@ Navbar8.propTypes = {
   page1ImageAlt: PropTypes.string,
   action2: PropTypes.element,
   link3Url: PropTypes.string,
+  link5: PropTypes.element,
+  link5Url: PropTypes.string,
+  link6: PropTypes.element,
+  link6Url: PropTypes.string,
 }
 
 export default Navbar8

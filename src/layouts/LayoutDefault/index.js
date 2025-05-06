@@ -98,31 +98,7 @@ const LayoutDefault = (props) => {
           </Fragment>
         }
       ></Navbar8>
-      <Hero17
-        action2={
-          <Fragment>
-            <span className="home-text114">Xem thêm</span>
-          </Fragment>
-        }
-        action1={
-          <Fragment>
-            <span className="home-text115">Bắt đầu ngay</span>
-          </Fragment>
-        }
-        heading1={
-          <Fragment>
-            <span className="home-text116">Phát triển doanh nghiệp của bạn với sức mạnh AI & Automation!
-            </span>
-          </Fragment>
-        }
-        content1={
-          <Fragment>
-            <span className="home-text117">
-            Khi bạn đang nghỉ ngơi, hệ thống của chúng tôi vẫn làm việc 24/7 để tối ưu hóa hoạt động marketing, chăm sóc khách hàng và tăng trưởng doanh thu cho doanh nghiệp bạn.
-            </span>
-          </Fragment>
-        }
-      ></Hero17>
+      
       <Outlet/>
       <Contact10
         content1={
