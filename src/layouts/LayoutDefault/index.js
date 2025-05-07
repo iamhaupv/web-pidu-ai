@@ -1,21 +1,24 @@
-import React, { Fragment } from 'react'
+import React, { useState, Fragment } from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import Navbar8 from '../../components/navbar8'
-import Hero17 from '../../components/hero17'
-import Features24 from '../../components/features24'
-import CTA26 from '../../components/cta26'
-import Features25 from '../../components/features25'
-import Pricing14 from '../../components/pricing14'
-import Steps2 from '../../components/steps2'
-import Testimonial17 from '../../components/testimonial17'
-import Contact10 from '../../components/contact10'
-import Footer4 from '../../components/footer4'
-import "../../views/home.css"
-import { Outlet } from 'react-router-dom'
-
+import Navbar8 from "../../components/navbar8";
+import Hero17 from "../../components/hero17";
+import Features24 from "../../components/features24";
+import CTA26 from "../../components/cta26";
+import Features25 from "../../components/features25";
+import Pricing14 from "../../components/pricing14";
+import Steps2 from "../../components/steps2";
+import Testimonial17 from "../../components/testimonial17";
+import Contact10 from "../../components/contact10";
+import Footer4 from "../../components/footer4";
+import "../../views/home.css";
+import { Outlet } from "react-router-dom";
+import ContactModal from "../../components/ContactModal";
+import ContactPopup from "../../components/ContactPopup";
+import ContactFormPopup from "../../components/ContactFormPopup";
 const LayoutDefault = (props) => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="home-container">
       <Helmet>
@@ -38,7 +41,6 @@ const LayoutDefault = (props) => {
             <span className="home-text102">Giới thiệu</span>
           </Fragment>
         }
-        
         page1={
           <Fragment>
             <span className="home-text103">Home</span>
@@ -66,7 +68,8 @@ const LayoutDefault = (props) => {
         }
         page1Description={
           <Fragment>
-            <span className="home-text108">Phát triển doanh nghiệp của bạn với sức mạnh AI & Automation!
+            <span className="home-text108">
+              Phát triển doanh nghiệp của bạn với sức mạnh AI & Automation!
             </span>
           </Fragment>
         }
@@ -94,32 +97,34 @@ const LayoutDefault = (props) => {
         }
         action2={
           <Fragment>
-            <span className="home-text113">Liên hệ chúng tôi</span>
+            <button onClick={() => setShowModal(true)} className="home-text113">
+              Liên hệ chúng tôi
+            </button>
           </Fragment>
         }
       ></Navbar8>
-      
-      <Outlet/>
+
+      <Outlet />
       <Contact10
         content1={
           <Fragment>
             <span className="home-text206">
-            <b>📅 Đặt lịch tư vấn miễn phí – chỉ mất 30 giây!</b> <br/>
-            Bạn cần AI để tăng trưởng doanh nghiệp ngay? <br/>
-📞 Chỉ 1 cuộc hẹn, bạn sẽ nhận được kế hoạch tăng doanh số từ 10 - 50% trong 30 ngày.  <br/>
-👉 Đặt lịch tư vấn <br/>
-📍 Liên hệ <br/>
-📧 pidumarketing@gmail.com <br/>
-📱 (+84) 938 905 347 <br/>
-
-
+              <b>📅 Đặt lịch tư vấn miễn phí – chỉ mất 30 giây!</b> <br />
+              Bạn cần AI để tăng trưởng doanh nghiệp ngay? <br />
+              📞 Chỉ 1 cuộc hẹn, bạn sẽ nhận được kế hoạch tăng doanh số từ 10 -
+              50% trong 30 ngày. <br />
+              👉 Đặt lịch tư vấn <br />
+              📍 Liên hệ <br />
+              📧 pidumarketing@gmail.com <br />
+              📱 (+84) 938 905 347 <br />
             </span>
           </Fragment>
         }
         location1Description={
           <Fragment>
             <span className="home-text207">
-            Số 7 đường số 7, khu đô thị Vạn Phúc City, phường Hiệp Bình Phước,Thành Phố Thủ Đức
+              Số 7 đường số 7, khu đô thị Vạn Phúc City, phường Hiệp Bình
+              Phước,Thành Phố Thủ Đức
             </span>
           </Fragment>
         }
@@ -146,6 +151,14 @@ const LayoutDefault = (props) => {
           </Fragment>
         }
       ></Contact10>
+      <ContactModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        // onSubmit={handleSendContact}
+      />
+      {/* popup contact */}
+      
+      {/* footer */}
       <Footer4
         link5={
           <Fragment>
@@ -188,8 +201,9 @@ const LayoutDefault = (props) => {
           </Fragment>
         }
       ></Footer4>
+      <ContactPopup />
     </div>
-  )
-}
+  );
+};
 
-export default LayoutDefault
+export default LayoutDefault;

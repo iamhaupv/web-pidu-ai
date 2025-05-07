@@ -1,13 +1,18 @@
-import React, { Fragment } from 'react'
+import React, {useState, Fragment } from 'react'
 
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
-
+import ContactModal from "../components/ContactModal"; 
 import './hero17.css'
-
 const Hero17 = (props) => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="hero17-header78">
+      <ContactModal
+  isOpen={showModal}
+  onClose={() => setShowModal(false)}
+  // onSubmit={handleSendContact}
+/>
       <div className="hero17-column thq-section-padding thq-section-max-width">
         <div className="hero17-content1">
           <h1 className="hero17-text1 thq-heading-1">
@@ -31,7 +36,7 @@ const Hero17 = (props) => {
           </p>
         </div>
         <div className="hero17-actions">
-          <button className="thq-button-filled hero17-button1">
+          <button className="thq-button-filled hero17-button1" onClick={() => setShowModal(true)}>
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>

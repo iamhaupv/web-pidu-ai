@@ -1,21 +1,21 @@
 import React from "react";
 import "./Contact.css";
-
+import {sendContactForm} from "../../apis/index"
 const Contact = () => {
-const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData.entries());
-  
-    await fetch("https://your-backend-url.com/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-  
-    alert("Gửi thành công!");
-  };
-  
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
+    
+        try {
+          await sendContactForm(data);
+          alert("🎉 Gửi thành công! Cảm ơn bạn đã liên hệ.");
+          e.target.reset(); // reset form
+        } catch (error) {
+          alert("❌ Gửi thất bại: " + error.message);
+          console.error("Lỗi gửi liên hệ:", error);
+        }
+      };
   return (
     <div className="contact-container">
       <h1 className="contact-heading">🚀 Kết nối ngay với đội ngũ Pidu</h1>

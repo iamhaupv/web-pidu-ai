@@ -4,10 +4,14 @@ import PropTypes from 'prop-types'
 import logo from "../assets/icon.png"
 import './navbar8.css'
 import { Link } from 'react-router-dom';
-
+import ContactModal from "../components/ContactModal"; 
 const Navbar8 = (props) => {
   const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)
   const [link5DropdownVisible, setLink5DropdownVisible] = useState(false)
+  const [showModal, setShowModal] = useState(false);
+  const handleClose = async() => {
+    setShowModal(true)
+  }
   return (
     <header className="navbar8-container1">
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
@@ -16,6 +20,11 @@ const Navbar8 = (props) => {
           src={logo}
           className="navbar8-image1"
         /></Link>
+              <ContactModal
+  isOpen={showModal}
+  onClose={() => setShowModal(false)}
+  // onSubmit={handleSendContact}
+/>
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
             {/* home */}
@@ -86,7 +95,7 @@ const Navbar8 = (props) => {
             </Link>
           </nav>
           <div className="navbar8-buttons1">
-            <button className="navbar8-action11 thq-button-animated thq-button-filled">
+            <button className="navbar8-action11 thq-button-animated thq-button-filled" onClick={() => setShowModal(true)}>
               <span>
                 {props.action1 ?? (
                   <Fragment>
@@ -299,7 +308,7 @@ const Navbar8 = (props) => {
               </div>
             </nav>
             <div className="navbar8-buttons2">
-              <button className="thq-button-filled">
+              <button className="thq-button-filled" onClick={() => setShowModal(true)}>
                 <span>
                   {props.action1 ?? (
                     <Fragment>
