@@ -1,6 +1,6 @@
 export async function sendContactForm(data) {
     try {
-      const response = await fetch("http://localhost:3000/api/contact", {
+      const response = await fetch("http://54.251.167.191:3000/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
