@@ -1,6 +1,6 @@
 export async function sendContactForm(data) {
     try {
-      const response = await fetch("http://54.251.167.191:3000/api/contact", {
+      const response = await fetch("https://api.beedo.ai.vn/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
