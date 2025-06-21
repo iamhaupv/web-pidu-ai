@@ -4,6 +4,16 @@ import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 import ContactModal from "../components/ContactModal"; 
 import './hero17.css'
+import hinh1 from "../assets/Hinh_trang_chu_pidu_2.png"
+import hinh2 from "../assets/Hinh_trang_chu_pidu_3.png"
+import hinh3 from "../assets/Hinh_trang_chu_pidu_5.png"
+import hinh4 from "../assets/Hinh_trang_chu_pidu_6.png"
+import hinh5 from "../assets/Hinh_trang_chu_pidu_7.png"
+import hinh6 from "../assets/Hinh_trang_chu_pidu_8.png"
+import hinh7 from "../assets/Hinh_trang_chu_pidu_9.png"
+import hinh8 from "../assets/Hinh_trang_chu_pidu_10.png"
+import hinh9 from "../assets/Hinh_trang_chu_pidu_11.png"
+import hinh10 from "../assets/Hinh_trang_chu_pidu_12.png"
 const Hero17 = (props) => {
   const [showModal, setShowModal] = useState(false);
   return (
@@ -40,12 +50,12 @@ const Hero17 = (props) => {
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
-                  <span className="hero17-text6">Bắt đầu ngay</span>
+                  <span className="hero17-text6">Liên hệ ngay</span>
                 </Fragment>
               )}
             </span>
           </button>
-          <button className="thq-button-outline hero17-button2">
+          {/* <button className="thq-button-outline hero17-button2">
             <span className="thq-body-small">
               {props.action2 ?? (
                 <Fragment>
@@ -53,67 +63,67 @@ const Hero17 = (props) => {
                 </Fragment>
               )}
             </span>
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="hero17-content2">
         <div className="hero17-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
           <div className="thq-animated-group-horizontal">
             <img
-              alt={props.image1Alt}
-              src={props.image1Src}
+              alt={"hello"}
+              src={hinh1}
               className="hero17-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image2Alt}
-              src={props.image2Src}
+              src={hinh2}
               className="hero17-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image3Alt}
-              src={props.image3Src}
+              src={hinh3}
               className="hero17-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image4Alt}
-              src={props.image4Src}
+              src={hinh4}
               className="hero17-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image5Alt}
-              src={props.image5Src}
+              src={hinh5}
               className="hero17-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image6Alt}
-              src={props.image6Src}
+              src={hinh6}
               className="hero17-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
             />
           </div>
           <div className="thq-animated-group-horizontal">
             <img
               alt={props.image1Alt}
-              src={props.image1Src}
+              src={hinh7}
               className="hero17-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image2Alt}
-              src={props.image2Src}
+              src={hinh9}
               className="hero17-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image3Alt}
-              src={props.image3Src}
+              src={hinh8}
               className="hero17-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image4Alt}
-              src={props.image4Src}
+              src={hinh9}
               className="hero17-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image5Alt}
-              src={props.image5Src}
+              src={hinh10}
               className="hero17-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
             />
             <img
@@ -127,54 +137,54 @@ const Hero17 = (props) => {
           <div className="thq-animated-group-horizontal-reverse">
             <img
               alt={props.image7Alt}
-              src={props.image7Src}
+              src={hinh10}
               className="hero17-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image8Alt}
-              src={props.image8Src}
+              src={hinh9}
               className="hero17-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image9Alt}
-              src={props.image9Src}
+              src={hinh8}
               className="hero17-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image10Alt}
-              src={props.image10Src}
+              src={hinh7}
               className="hero17-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image11Alt}
-              src={props.image11Src}
+              src={hinh6}
               className="hero17-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image12Alt}
-              src={props.image12Src}
+              src={hinh5}
               className="hero17-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
             />
           </div>
           <div className="thq-animated-group-horizontal-reverse">
             <img
               alt={props.image7Alt}
-              src={props.image7Src}
+              src={hinh4}
               className="hero17-placeholder-image28 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image8Alt}
-              src={props.image8Src}
+              src={hinh3}
               className="hero17-placeholder-image29 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image9Alt}
-              src={props.image9Src}
+              src={hinh2}
               className="hero17-placeholder-image30 thq-img-scale thq-img-ratio-1-1"
             />
             <img
               alt={props.image10Alt}
-              src={props.image10Src}
+              src={hinh1}
               className="hero17-placeholder-image31 thq-img-scale thq-img-ratio-1-1"
             />
             <img

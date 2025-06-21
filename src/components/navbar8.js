@@ -77,7 +77,7 @@ const Navbar8 = (props) => {
             >
               {props.link5 ?? (
                 <Fragment>
-                  <span className="navbar8-text24">Blog/Tin tức</span>
+                  <span  className="navbar8-text24" style={{ fontFamily: 'Roboto, sans-serif' }}>Blog/Tin tức</span>
                 </Fragment>
               )}
             </Link>
@@ -89,7 +89,7 @@ const Navbar8 = (props) => {
             >
               {props.link6 ?? (
                 <Fragment>
-                  <span className="navbar8-text24">Tuyển dụng</span>
+                  <span className="navbar8-text24" style={{ fontFamily: 'Roboto, sans-serif' }} >Tuyển dụng</span>
                 </Fragment>
               )}
             </Link>
@@ -99,12 +99,12 @@ const Navbar8 = (props) => {
               <span>
                 {props.action1 ?? (
                   <Fragment>
-                    <span className="navbar8-text15">Bắt đầu ngay</span>
+                    <span className="navbar8-text15">Liên hệ ngay</span>
                   </Fragment>
                 )}
               </span>
             </button>
-            <button className="navbar8-action21 thq-button-outline thq-button-animated">
+            {/* <button className="navbar8-action21 thq-button-outline thq-button-animated">
               <span>
                 {props.action2 ?? (
                   <Fragment>
@@ -112,7 +112,7 @@ const Navbar8 = (props) => {
                   </Fragment>
                 )}
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
         <div data-thq="thq-burger-menu" className="navbar8-burger-menu">
@@ -312,12 +312,12 @@ const Navbar8 = (props) => {
                 <span>
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="navbar8-text15">Bắt đầu ngay</span>
+                      <span className="navbar8-text15">Liên hệ ngay</span>
                     </Fragment>
                   )}
                 </span>
               </button>
-              <button className="thq-button-outline">
+              {/* <button className="thq-button-outline">
                 <span>
                   {props.action2 ?? (
                     <Fragment>
@@ -325,7 +325,7 @@ const Navbar8 = (props) => {
                     </Fragment>
                   )}
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="navbar8-icon-group">
@@ -542,9 +542,9 @@ Navbar8.defaultProps = {
   link3Url: '/service',
   link4Url: "contact",
   link4: "contact",
-  link5: "Blog/Tin tức",
+  link5: <span>Blog/Tin tức</span>,
   link5Url: "blog",
-  link6: "Tuyển dụng",
+  link6: <span>Tuyển dụng</span>,
   link6Url: "recruit"
 }
 

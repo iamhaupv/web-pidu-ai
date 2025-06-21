@@ -611,3 +611,24 @@
     padding: var(--dl-layout-space-unit);
   }
 }
+.navbar8-container1,
+.navbar8-navbar-interactive,
+.navbar8-links1,
+.navbar8-link11,
+.navbar8-link31,
+.navbar8-text14,
+.navbar8-text15,
+.navbar8-text16,
+.navbar8-text17,
+.navbar8-text18,
+.navbar8-text19,
+.navbar8-text20,
+.navbar8-text21,
+.navbar8-text22,
+.navbar8-text23,
+.navbar8-text24,
+.navbar8-text25,
+.navbar8-text26,
+.navbar8-text27 {
+  font-family: 'Roboto', sans-serif;
+}

@@ -7,8 +7,11 @@ const Services = () => {
       <h1 className="service-heading">Giải pháp AI & Automation dành riêng cho doanh nghiệp hiện đại</h1>
       <p>Tại Pidu Digital, chúng tôi cung cấp hệ thống dịch vụ marketing toàn diện, ứng dụng trí tuệ nhân tạo (AI) và tự động hóa hiện đại vào từng quy trình. Từ sản xuất nội dung video, tối ưu SEO đến phát triển website và phần mềm, mỗi giải pháp của Pidu đều được thiết kế để nâng cao hiệu suất, tiết kiệm thời gian, giảm chi phí và giúp doanh nghiệp bứt phá doanh thu bền vững trong kỷ nguyên số.
       </p>
+       <div style={{marginBottom: 20}}></div>
       <b>Chọn Pidu — chọn hiệu quả, chọn thành công dài hạn.</b>
+      <div style={{marginBottom: 20}}></div>
       <h3>3 DỊCH VỤ CHÍNH TẠI PIDU</h3>
+       <div style={{marginBottom: 20}}></div>
       <div className="services">
         {/* Service 1 */}
         <div className="service-card">
@@ -63,7 +66,7 @@ const Services = () => {
             <li>5. Theo dõi và báo cáo hiệu suất SEO realtime            </li>
           </ul>
         </div>
-
+        
         {/* Service 3 */}
         <div className="service-card">
           <h3>💻 3. Dịch vụ Dev Website & ứng dụng AI Automation</h3>

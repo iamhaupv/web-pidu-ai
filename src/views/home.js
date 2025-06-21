@@ -18,8 +18,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Plush Nautical Salamander</title>
-        <meta property="og:title" content="Plush Nautical Salamander" />
+        <title>Pidu Digital</title>
+        <meta property="og:title" content="Pidu Digital" />
       </Helmet>
       <Navbar8
         page4Description={
@@ -90,11 +90,11 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-        action2={
-          <Fragment>
-            <span className="home-text113">Contact Us</span>
-          </Fragment>
-        }
+        // action2={
+        //   <Fragment>
+        //     <span className="home-text113">Contact Us</span>
+        //   </Fragment>
+        // }
       ></Navbar8>
       <Hero17
         action2={
@@ -650,11 +650,11 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-        heading1={
-          <Fragment>
-            <span className="home-text208">Contact Us</span>
-          </Fragment>
-        }
+        // heading1={
+        //   <Fragment>
+        //     <span className="home-text208">Contact Us</span>
+        //   </Fragment>
+        // }
         location2Description={
           <Fragment>
             <span className="home-text209">

@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css'; // Ensure your CSS file supports the new styling
 import downloadImage from './image/images.jpg'; // Update this path if necessary
 import downloadImage1 from './image/tải xuống.jpg'; // Update this path if necessary
+import hinh1 from "../../assets/Hinh_trang_chu_pidu_10.png"
 
 
 
@@ -20,10 +21,10 @@ const About = () => {
         </p>
       </div>
       <div className="about-image-section">
-        <img src={downloadImage} alt="Marketing Visual" className="about-image" />
-        <img src={downloadImage1} alt="Marketing Visual" className="about-image" />
+        <img src={hinh1} alt="Marketing Visual" className="about-image" />
+        {/* <img src={downloadImage1} alt="Marketing Visual" className="about-image" /> */}
       </div>
-
+      <div style={{marginTop: 40}}></div>
       <section className="history">
         <h2>Lịch sử hình thành và phát triển Công ty Pidu</h2>
         <p>

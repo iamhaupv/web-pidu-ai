@@ -1,3 +1,6 @@
+span{
+  font-family: 'Roboto', sans-serif;
+}
 .home-container {
   width: 100%;
   display: flex;
@@ -24,7 +27,9 @@
  
 .home-text104 {
   display: inline-block;
+  font-family: 'Roboto', sans-serif;
 }
+
  
 .home-text105 {
   display: inline-block;

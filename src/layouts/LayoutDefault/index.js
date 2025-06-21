@@ -22,8 +22,8 @@ const LayoutDefault = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Plush Nautical Salamander</title>
-        <meta property="og:title" content="Plush Nautical Salamander" />
+        <title>Pidu Digital</title>
+        <meta property="og:title" content="Pidu Digital" />
       </Helmet>
       <Navbar8
         page4Description={
@@ -33,7 +33,7 @@ const LayoutDefault = (props) => {
         }
         action1={
           <Fragment>
-            <span className="home-text101">Bắt đầu ngay</span>
+            <span className="home-text101">Liên hệ ngay</span>
           </Fragment>
         }
         link2={
@@ -95,17 +95,17 @@ const LayoutDefault = (props) => {
             </span>
           </Fragment>
         }
-        action2={
-          <Fragment>
-            <button onClick={() => setShowModal(true)} className="home-text113">
-              Liên hệ chúng tôi
-            </button>
-          </Fragment>
-        }
+        // action2={
+        //   <Fragment>
+        //     <button onClick={() => setShowModal(true)} className="home-text113">
+        //       Liên hệ chúng tôi
+        //     </button>
+        //   </Fragment>
+        // }
       ></Navbar8>
 
       <Outlet />
-      <Contact10
+      {/* <Contact10
         content1={
           <Fragment>
             <span className="home-text206">
@@ -150,7 +150,7 @@ const LayoutDefault = (props) => {
             <span className="home-text211">Los Angeles Office</span>
           </Fragment>
         }
-      ></Contact10>
+      ></Contact10> */}
       <ContactModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}

@@ -11,7 +11,7 @@ const Steps2 = (props) => {
         <div className="steps2-container2 thq-grid-2">
           <div className="steps2-section-header">
             <h2 className="thq-heading-2">
-            🤖 AI & Automation giúp bạn giải quyết ra sao?
+            AI & Automation giúp bạn giải quyết ra sao?
             </h2>
             <p className="thq-body-large">
               <ul className='feature-list'>
@@ -24,7 +24,7 @@ const Steps2 = (props) => {
             </p>
             <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">
-                <span className="thq-body-small">Bắt đầu ngay</span>
+                <span className="thq-body-small"> Liên hệ ngay</span>
               </button>
             </div>
           </div>

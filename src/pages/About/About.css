@@ -1,6 +1,11 @@
 /* General Styles */
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+
+}
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -46,7 +51,7 @@ body {
 }
 
 .about-content p {
-    font-size: 1.15em; /* Slightly larger text */
+    font-size: 1em; /* Slightly larger text */
     color: #666; 
     margin-bottom: 20px;
 }
@@ -87,11 +92,11 @@ body {
 
 .about-image {
     max-width: 100%; /* Adjust size to be responsive */
-    height: 200px; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
 }
-.about-image:hover {
+/* .about-image:hover { 
     transform: scale(1.05); /* Slight enlargement on hover */
-}
+/* } */ 
 
 /* Timeline Section */
 .timeline {

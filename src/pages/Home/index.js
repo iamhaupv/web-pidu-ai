@@ -19,14 +19,14 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Hero17
-        action2={
-          <Fragment>
-            <span className="home-text114">Xem thêm</span>
-          </Fragment>
-        }
+        // action2={
+        //   <Fragment>
+        //     <span className="home-text114">Xem thêm</span>
+        //   </Fragment>
+        // }
         action1={
           <Fragment>
-            <span className="home-text115">Bắt đầu ngay</span>
+            <span className="home-text115">Liên hệ ngay</span>
           </Fragment>
         }
         heading1={
@@ -43,7 +43,7 @@ const Home = (props) => {
           </Fragment>
         }
       ></Hero17>
-      <Features24
+      {/* <Features24
         feature3Description={
           <Fragment>
             <span className="home-text118">Custom Development</span>
@@ -75,8 +75,8 @@ const Home = (props) => {
             <span className="home-text123">Mobile Optimization</span>
           </Fragment>
         }
-      ></Features24>
-      <CTA26
+      ></Features24> */}
+      {/* <CTA26
         heading1={
           <Fragment>
             <span className="home-text124">
@@ -97,8 +97,8 @@ const Home = (props) => {
             <span className="home-text126">Get in touch with us today</span>
           </Fragment>
         }
-      ></CTA26>
-      <Features25
+      ></CTA26> */}
+      {/* <Features25
         feature3Description={
           <Fragment>
             <span className="home-text127">
@@ -138,8 +138,8 @@ const Home = (props) => {
             <span className="home-text132">SEO Optimization</span>
           </Fragment>
         }
-      ></Features25>
-      <Pricing14
+      ></Features25> */}
+      {/* <Pricing14
         plan3Price={
           <Fragment>
             <span className="home-text133">$1499</span>
@@ -406,7 +406,7 @@ const Home = (props) => {
             <span className="home-text183">Enterprise plan</span>
           </Fragment>
         }
-      ></Pricing14>
+      ></Pricing14> */}
       <Steps2
         step1Description={
           <Fragment>
@@ -523,7 +523,7 @@ Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng v
 Tận tâm – Chuyên nghiệp – Luôn đồng hành cùng doanh nghiệp kiến tạo thành công bền vững trong kỷ nguyên số.
             </span>
             <br/>
-            <h1 class="faq-title" >📌 Câu hỏi thường gặp (FAQ)</h1>
+            <h1 class="faq-title" > Câu hỏi thường gặp (FAQ)</h1>
           </Fragment>
         }
         author3Position={
