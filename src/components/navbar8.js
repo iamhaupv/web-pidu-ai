@@ -104,15 +104,6 @@ const Navbar8 = (props) => {
                 )}
               </span>
             </button>
-            {/* <button className="navbar8-action21 thq-button-outline thq-button-animated">
-              <span>
-                {props.action2 ?? (
-                  <Fragment>
-                    <span className="navbar8-text27">Contact Us</span>
-                  </Fragment>
-                )}
-              </span>
-            </button> */}
           </div>
         </div>
         <div data-thq="thq-burger-menu" className="navbar8-burger-menu">

@@ -4,20 +4,16 @@ import { Helmet } from 'react-helmet'
 
 import Navbar8 from '../../components/navbar8'
 import Hero17 from '../../components/hero17'
-import Features24 from '../../components/features24'
-import CTA26 from '../../components/cta26'
-import Features25 from '../../components/features25'
-import Pricing14 from '../../components/pricing14'
 import Steps2 from '../../components/steps2'
 import Testimonial17 from '../../components/testimonial17'
-import Contact10 from '../../components/contact10'
-import Footer4 from '../../components/footer4'
+import banner from '../../assets/banner-pidu.png';
 import '../../views/home.css'
 import "./Home.css"
 
 const Home = (props) => {
   return (
     <div className="home-container">
+    <img src={banner} alt="Banner Pidu" className="banner-full" />
       <Hero17
         // action2={
         //   <Fragment>
@@ -31,14 +27,20 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text116">Phát triển doanh nghiệp của bạn với sức mạnh AI & Automation!
+            <span className="home-text116">Phát triển doanh nghiệp của bạn với sức mạnh
+            </span>
+            <br/>
+            <span className="home-text116"> AI & Automation!
             </span>
           </Fragment>
         }
         content1={
           <Fragment>
             <span className="home-text117">
-            Khi bạn đang nghỉ ngơi, hệ thống của chúng tôi vẫn làm việc 24/7 để tối ưu hóa hoạt động marketing, chăm sóc khách hàng và tăng trưởng doanh thu cho doanh nghiệp bạn.
+            Khi bạn đang nghỉ ngơi, hệ thống của chúng tôi vẫn làm việc 24/7 để tối ưu hóa hoạt động marketing,
+            </span><br/>
+            <span className="home-text117">
+             chăm sóc khách hàng và tăng trưởng doanh thu cho doanh nghiệp bạn.
             </span>
           </Fragment>
         }
@@ -410,14 +412,14 @@ const Home = (props) => {
       <Steps2
         step1Description={
           <Fragment>
-            <span className="home-text184">
-Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng với Heygen, AI Video Generator và Automation Workflow.
+            <span className="home-text184" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
+      Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng với Heygen, AI Video Generator và Automation Workflow.
             </span>
           </Fragment>
         }
         step3Description={
           <Fragment>
-            <span className="home-text185">
+            <span className="home-text185" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             Thiết kế website, landing page chuẩn UI/UX, tích hợp chatbot AI, automation sale & quản trị hệ thống thông minh.
 
             </span>
@@ -425,13 +427,13 @@ Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng v
         }
         step2Title={
           <Fragment>
-            <span className="home-text186">2️⃣ Dịch vụ SEO Website ứng dụng AI & Automation
+            <span className="home-text186" >2. Dịch vụ SEO Website ứng dụng AI & Automation
             </span>
           </Fragment>
         }
         step2Description={
           <Fragment>
-            <span className="home-text187">
+            <span className="home-text187" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             Tối ưu website lên top Google nhờ AI Keyword Research, AI Content và tự động hóa tracking thứ hạng.
 
             </span>
@@ -439,24 +441,24 @@ Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng v
         }
         step1Title={
           <Fragment>
-            <span className="home-text188">1️⃣ Sản xuất nội dung Video AI
+            <span className="home-text188">1. Sản xuất nội dung Video AI
             </span>
           </Fragment>
         }
         step3Title={
           <Fragment>
-            <span className="home-text189">3️⃣ Dịch vụ Dev Website & ứng dụng AI Automation
+            <span className="home-text189">3. Dịch vụ Dev Website & ứng dụng AI Automation
             </span>
           </Fragment>
         }
         step4Description={
           <Fragment>
             <span className="home-text190">
-                <ul class="feature-list">
-                    <li>✔ Theo dõi tiến độ công việc</li>
-                    <li>✔ Kiểm soát số liệu kinh doanh realtime </li>
-                    <li>✔ Quản lý khách hàng – chăm sóc tự động</li>
-                    <li>✔ Xem báo cáo và điều chỉnh ngay trên nền tảng</li>
+                <ul class="feature-list" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
+                    <li style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>✔ Theo dõi tiến độ công việc</li>
+                    <li style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>✔ Kiểm soát số liệu kinh doanh realtime </li>
+                    <li style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>✔ Quản lý khách hàng – chăm sóc tự động</li>
+                    <li style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>✔ Xem báo cáo và điều chỉnh ngay trên nền tảng</li>
                 </ul>
              <br/>
             </span>
@@ -464,96 +466,85 @@ Tạo video quảng cáo, giới thiệu sản phẩm, viral clip nhanh chóng v
         }
         step4Title={
           <Fragment>
-            <span className="home-text191">📊 Dashboard thông minh dành riêng cho bạn</span>
+            <span className="home-text191">Dashboard thông minh dành riêng cho bạn</span>
           </Fragment>
         }
       ></Steps2>
       <Testimonial17
         author2Position={
           <Fragment>
-            <span className="home-text192">
+            <span className="home-text192" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             AI có thể thay thế hoàn toàn nhân viên không?
             </span>
           </Fragment>
         }
         author1Position={
           <Fragment>
-            <span className="home-text193">Chi phí triển khai AI marketing bao nhiêu?</span>
+            <span className="home-text193" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>Chi phí triển khai AI marketing bao nhiêu?</span>
           </Fragment>
         }
         author1Name={
           <Fragment>
-            <span className="home-text194">John Doe</span>
+            <span className="home-text194" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>Đức Phú</span>
           </Fragment>
         }
         author3Name={
           <Fragment>
-            <span className="home-text195">David Johnson</span>
+            <span className="home-text195" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>Sinh Phạm</span>
           </Fragment>
         }
         review2={
           <Fragment>
-            <span className="home-text196">
+            <span className="home-text196" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             Không — AI & Automation giúp giảm tải công việc lặp lại để nhân viên tập trung vào sáng tạo và chiến lược.
-
             </span>
           </Fragment>
         }
         author2Name={
           <Fragment>
-            <span className="home-text197">Jane Smith</span>
+            <span className="home-text197" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>Nguyễn Hồng</span>
           </Fragment>
         }
         author4Position={
           <Fragment>
-            <span className="home-text198">
+            <span className="home-text198" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             AI có đảm bảo bảo mật dữ liệu khách hàng không?
             </span>
           </Fragment>
         }
         author4Name={
           <Fragment>
-            <span className="home-text199">Sarah Lee</span>
+            <span className="home-text199" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>Phương Tử</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text200">
-            <b>Đơn vị tiên phong ứng dụng AI & Automation vào marketing tại Việt Nam.</b> <br/>
-Tận tâm – Chuyên nghiệp – Luôn đồng hành cùng doanh nghiệp kiến tạo thành công bền vững trong kỷ nguyên số.
-            </span>
-            <br/>
             <h1 class="faq-title" > Câu hỏi thường gặp (FAQ)</h1>
           </Fragment>
         }
         author3Position={
           <Fragment>
-            <span className="home-text201">Dùng AI có bị “phụ thuộc công nghệ”?</span>
+            <span className="home-text201"style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>Dùng AI có bị “phụ thuộc công nghệ”?</span>
           </Fragment>
         }
         
         review1={
           <Fragment>
-            <span className="home-text202">
+            <span className="home-text202" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             Chi phí linh hoạt từ 5 triệu/tháng tùy vào nhu cầu, doanh nghiệp có thể chọn từng dịch vụ hoặc gói trọn bộ.
             </span>
           </Fragment>
         }
-        heading1={
-          <Fragment>
-            <span className="home-text203">🥇 Chúng tôi là Pidu Digital</span>
-          </Fragment>
-        }
         review3={
           <Fragment>
-            <span className="home-text204">
+            <span className="home-text204" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             AI là công cụ hỗ trợ ra quyết định, không thay thế hoàn toàn con người. Quan trọng là doanh nghiệp hiểu rõ cách dùng và kiểm soát quy trình, không để AI vận hành “mù quáng”.
             </span>
           </Fragment>
         }
         review4={
           <Fragment>
-            <span className="home-text205">
+            <span className="home-text205" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.25rem)' }}>
             Tùy theo nhà cung cấp giải pháp AI. Pidu cam kết tuân thủ nghiêm ngặt các tiêu chuẩn bảo mật quốc tế và đảm bảo dữ liệu khách hàng được bảo vệ an toàn tuyệt đối.
             </span>
           </Fragment>

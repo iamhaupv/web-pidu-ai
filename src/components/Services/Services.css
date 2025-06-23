@@ -26,7 +26,7 @@ body {
   }
   
   .service-card {
-    background-color: #f4f4f4;
+    background-color: #f6f5ed;
     border-radius: 8px;
     padding: 20px;
     width: 30%;
@@ -58,7 +58,7 @@ body {
   }
   
   .service-card .benefit {
-    color: #27ae60;
+    color: #837d4d;
     font-weight: bold;
   }
   

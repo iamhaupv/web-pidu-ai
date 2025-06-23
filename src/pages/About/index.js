@@ -30,6 +30,7 @@ const About = () => {
         <p>
           Pidu đã không ngừng mở rộng quy mô và cập nhật các xu hướng công nghệ mới nhất, trở thành một trong những đơn vị tiên phong trong việc triển khai các giải pháp AI Marketing Automation tại Việt Nam. Trong hành trình phía trước, Pidu tiếp tục giữ vững tinh thần đổi mới, lấy khách hàng làm trung tâm và hướng đến mục tiêu trở thành đối tác chiến lược tin cậy của các doanh nghiệp trong và ngoài nước.
         </p>
+        <br/>
         <div className="timeline">
           <div className="timeline-item">
             <span>2022 🎉</span>

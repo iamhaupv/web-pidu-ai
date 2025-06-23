@@ -24,7 +24,8 @@ const Hero17 = (props) => {
   // onSubmit={handleSendContact}
 />
       <div className="hero17-column thq-section-padding thq-section-max-width">
-        <div className="hero17-content1">
+      
+        <div className="hero17-conten t1">
           <h1 className="hero17-text1 thq-heading-1">
             {props.heading1 ?? (
               <Fragment>

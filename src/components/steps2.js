@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './steps2.css'
-
 const Steps2 = (props) => {
   return (
     <div className="steps2-container1 thq-section-padding">
@@ -13,20 +12,20 @@ const Steps2 = (props) => {
             <h2 className="thq-heading-2">
             AI & Automation giúp bạn giải quyết ra sao?
             </h2>
-            <p className="thq-body-large">
+            <p className="thq-body-large" >
               <ul className='feature-list'>
-                <li>✅ Tự động hóa quy trình marketing 24/7</li>
-                <li>✅ Tăng lượng khách hàng tiềm năng nhờ AI Lead Gen</li>
-                <li>✅ Sản xuất nội dung video, SEO content nhanh, chuẩn tối ưu</li>
-                <li>✅ Quản lý dữ liệu & phân tích hiệu quả realtime trên dashboard thông minh</li>
+                <li style={{ fontSize: '18px' }}>✅ Tự động hóa quy trình marketing 24/7</li>
+                <li style={{ fontSize: '18px' }}>✅ Tăng lượng khách hàng tiềm năng nhờ AI Lead Gen</li>
+                <li style={{ fontSize: '18px' }}>✅ Sản xuất nội dung video, SEO content nhanh, chuẩn tối ưu</li>
+                <li style={{ fontSize: '18px' }}>✅ Quản lý dữ liệu & phân tích hiệu quả realtime trên dashboard thông minh</li>
               </ul>
-              → Tiết kiệm 60% chi phí – Tăng doanh số từ 30%
+               <strong style={{ marginLeft: '20px' }}>→ Tiết kiệm 60% chi phí – Tăng doanh số từ 30% </strong>
             </p>
-            <div className="steps2-actions">
+            {/* <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">
                 <span className="thq-body-small"> Liên hệ ngay</span>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="steps2-container3">
             <div className="steps2-container4 thq-card">
@@ -47,7 +46,6 @@ const Steps2 = (props) => {
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text15 thq-heading-3">01</label>
             </div>
             <div className="steps2-container5 thq-card">
               <h2 className="thq-heading-2">
@@ -69,7 +67,6 @@ const Steps2 = (props) => {
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text18 thq-heading-3">02</label>
             </div>
             <div className="steps2-container6 thq-card">
               <h2 className="thq-heading-2">
@@ -92,7 +89,6 @@ const Steps2 = (props) => {
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text21 thq-heading-3">03</label>
             </div>
             <div className="steps2-container7 thq-card">
               <h2 className="thq-heading-2">
@@ -114,7 +110,6 @@ const Steps2 = (props) => {
                   </Fragment>
                 )}
               </span>
-              <label className="steps2-text24 thq-heading-3">04</label>
             </div>
           </div>
         </div>

@@ -553,12 +553,12 @@ const Home = (props) => {
         }
         author1Name={
           <Fragment>
-            <span className="home-text194">John Doe</span>
+            <span className="home-text194">Nguyễn Hồng</span>
           </Fragment>
         }
         author3Name={
           <Fragment>
-            <span className="home-text195">David Johnson</span>
+            <span className="home-text195">Đức Phú </span>
           </Fragment>
         }
         review2={
@@ -572,7 +572,7 @@ const Home = (props) => {
         }
         author2Name={
           <Fragment>
-            <span className="home-text197">Jane Smith</span>
+            <span className="home-text197">Phương Tử</span>
           </Fragment>
         }
         author4Position={
@@ -584,7 +584,7 @@ const Home = (props) => {
         }
         author4Name={
           <Fragment>
-            <span className="home-text199">Sarah Lee</span>
+            <span className="home-text199">Sinh Phạm</span>
           </Fragment>
         }
         content1={

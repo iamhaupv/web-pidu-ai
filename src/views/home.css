@@ -77,10 +77,14 @@ span{
  
 .home-text116 {
   display: inline-block;
+  text-align: center;
 }
  
 .home-text117 {
   display: inline-block;
+  text-align: center;
+   font-size: clamp(1rem, 1.8vw, 1.25rem);
+  font-weight: 500; 
 }
  
 .home-text118 {
@@ -357,6 +361,11 @@ span{
  
 .home-text186 {
   display: inline-block;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-height: 1.4;
+  text-align: left;
 }
  
 .home-text187 {
@@ -365,10 +374,20 @@ span{
  
 .home-text188 {
   display: inline-block;
+  text-align: left;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-height: 1.4;
 }
  
 .home-text189 {
   display: inline-block;
+  text-align: left;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-height: 1.4;
 }
  
 .home-text190 {
@@ -377,6 +396,10 @@ span{
  
 .home-text191 {
   display: inline-block;
+  text-align: left;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  white-space: normal;
 }
  
 .home-text192 {

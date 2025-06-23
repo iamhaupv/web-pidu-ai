@@ -9,13 +9,7 @@ const Testimonial17 = (props) => {
     <div className="thq-section-padding">
       <div className="testimonial17-max-width thq-section-max-width">
         <div className="testimonial17-container10">
-          <h2 className="thq-heading-2">
-            {props.heading1 ?? (
-              <Fragment>
-                <span className="testimonial17-text35">Testimonials</span>
-              </Fragment>
-            )}
-          </h2>
+
           <span className="testimonial17-text11 thq-body-small">
             {props.content1 ?? (
               <Fragment>
@@ -226,25 +220,26 @@ Testimonial17.defaultProps = {
   author3Alt: 'David Johnson Image Alt Text',
   author1Name: undefined,
   author1Src:
-    'https://images.unsplash.com/photo-1592520113018-180c8bc831c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRjqPpfJmpSINlYpbIuV7bz1Pl__dtySxk9Q&scrop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
   author3Name: undefined,
   review2: undefined,
   author2Name: undefined,
   author4Position: undefined,
   author4Name: undefined,
   author4Src:
-    'https://images.unsplash.com/photo-1522669830117-58a450cc6077?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://i.pinimg.com/564x/49/56/56/4956566318a73010216621c19e2aebf0.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
   author1Alt: 'John Doe Image Alt Text',
   author2Src:
-    'https://images.unsplash.com/photo-1558439749-b53250f4ffb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://vapa.vn/wp-content/uploads/2022/12/avatar-phong-canh-003.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
   author3Src:
-    'https://images.unsplash.com/photo-1542362879-8353335123aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://toptentravel.com.vn/Data/Sites/1/media/content/nui-bay-avatar-hallelujah-4.png?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NjQxMzAxMnw&ixlib=rb-4.0.3&q=80&w=1080',
   author2Alt: 'Jane Smith Image Alt Text',
   author4Alt: 'Sarah Lee Image Alt Text',
   content1: undefined,
   author3Position: undefined,
   review1: undefined,
   heading1: undefined,
+  fullsize:undefined,
   review3: undefined,
   review4: "AI là công cụ hỗ trợ ra quyết định, không thay thế hoàn toàn con người. Quan trọng là doanh nghiệp hiểu rõ cách dùng và kiểm soát quy trình, không để AI vận hành “mù quáng”.",
 }
@@ -272,6 +267,7 @@ Testimonial17.propTypes = {
   heading1: PropTypes.element,
   review3: PropTypes.element,
   review4: PropTypes.element,
+  fullsize: PropTypes.element,
 }
 
 export default Testimonial17

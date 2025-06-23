@@ -8,69 +8,46 @@ import './footer4.css'
 
 const Footer4 = (props) => {
   return (
-    <footer className="footer4-footer7 thq-section-padding">
+    <footer className="footer4-footer7">
       <div className="footer4-max-width thq-section-max-width">
-        <div className="footer4-content">
-          <div className="footer4-logo1">
+        <div className="footer4-container flex flex-col md:flex-row items-start justify-between bg-gray-50">
+          {/* LEFT COL – logo + mô tả */}
+          <div className="footer4-logo1 flex flex-col items-start gap-2 max-w-xs margin-right-4">
             <img
               alt={props.logoAlt}
               src={logo}
               className="footer4-logo2"
             />
           </div>
-          <div className="footer4-links">
-            <a
-              href="https://example.com"
-              
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {(
-                <Fragment>
-                 <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 24 24"
-  fill="#1877F2"
->
-  <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-2v7A10 10 0 0 0 22 12Z" />
-</svg>
- 
-                </Fragment>
-              )}
 
-            </a>
-            <a
-              href="https://example.com"
-             
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              {(
-                <Fragment>
-                  <img src={zalo} alt="Zalo" width="32" height="32" />
-                  
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-             
-              rel="noreferrer noopener"
-              className="thq-body-small"
-            >
-              { (
-                <Fragment>
-                  <img src={x} alt="Zalo" width="32" height="32" />
-                  
-                </Fragment>
-              )}
-            </a>
+         {/* MID COL – Thông tin liên hệ */}
+            <div className="flex-1 min-w-[360px] space-y-2 margin-left-4">
+              <h4 className="text-lg font-bold uppercase border-b border-sky-600 pb-2 mb-3">THÔNG TIN</h4>
+              <ul className="space-y-1 text-sm leading-relaxed">
+                <li><span className="font-semibold" ><strong>Pidu Digital</strong></span> Số 7 đường số 7, KĐT Vạn Phúc City</li>
+                <li><span className="font-semibold" ><strong>Văn phòng:</strong></span> Số 7 đường số 7, KĐT Vạn Phúc City</li>
+              </ul>
+            </div>
+         {/* RIGHT COL – Chính sách & Liên hệ */}
+          <div className="flex-1 min-w-[360px] space-y-2 margin-left-4  ">
+            <h4 className="text-lg font-bold uppercase border-b border-sky-600 pb-2 mb-3">CÁC CHÍNH SÁCH</h4>
+            <ul className="space-y-1 text-sm">
+              <li>Chính sách bảo hành</li>
+              <li>Chính sách bảo mật</li>
+            </ul>
+          </div>
+           {/*Chính sách & Liên hệ */}
+          <div className="flex-1 min-w-[360px] space-y-2 margin-left-4  ">
+            <h4 className="text-lg font-bold uppercase border-b border-sky-600 pb-2 mb-3">LIÊN HỆ KINH DOANH</h4>
+            <ul className="space-y-1 text-sm">
+              <li><strong>Email:</strong>pidumarketing@gmail.com</li>
+              <li><strong>Số điện thoại</strong> (+84) 938 905 347</li>
             
+            </ul>
           </div>
         </div>
-        <div className="footer4-credits">
+
+        {/* <div className="footer4-credits">
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
@@ -102,7 +79,7 @@ const Footer4 = (props) => {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   )
