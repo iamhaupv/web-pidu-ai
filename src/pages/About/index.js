@@ -25,32 +25,6 @@ const About = () => {
         {/* <img src={downloadImage1} alt="Marketing Visual" className="about-image" /> */}
       </div>
       <div style={{marginTop: 40}}></div>
-      <section className="history">
-        <h2>Lịch sử hình thành và phát triển Công ty Pidu</h2>
-        <p>
-          Pidu đã không ngừng mở rộng quy mô và cập nhật các xu hướng công nghệ mới nhất, trở thành một trong những đơn vị tiên phong trong việc triển khai các giải pháp AI Marketing Automation tại Việt Nam. Trong hành trình phía trước, Pidu tiếp tục giữ vững tinh thần đổi mới, lấy khách hàng làm trung tâm và hướng đến mục tiêu trở thành đối tác chiến lược tin cậy của các doanh nghiệp trong và ngoài nước.
-        </p>
-        <br/>
-        <div className="timeline">
-          <div className="timeline-item">
-            <span>2022 🎉</span>
-            <p>Thành lập Công ty Pidu, tập trung nghiên cứu và phát triển các giải pháp AI & Automation trong marketing.</p>
-          </div>
-          <div className="timeline-item">
-            <span>2023 🚀</span>
-            <p>Ra mắt các dịch vụ AI Marketing Automation đầu tiên cho thị trường SME. Hợp tác chiến lược với các đối tác công nghệ lớn tại Việt Nam.</p>
-          </div>
-          <div className="timeline-item">
-            <span>2024 🌐</span>
-            <p>Mở rộng hệ sinh thái giải pháp AI cho các doanh nghiệp ngành bán lẻ, thương mại điện tử và dịch vụ. Đạt cột mốc 100+ khách hàng doanh nghiệp.</p>
-          </div>
-          <div className="timeline-item">
-            <span>2025 🎯</span>
-            <p>Hoàn thiện nền tảng AI Marketing Automation phiên bản nâng cao và mở rộng hoạt động sang thị trường quốc tế khu vực Đông Nam Á.</p>
-          </div>
-        </div>
-      </section>
-
       <section className="vision-mission">
         <h2>Tầm nhìn</h2>
         <p>
